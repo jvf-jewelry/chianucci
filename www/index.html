@@ -162,7 +162,7 @@
   <h1 class="h1_scheda">Video Aziendale</h1>
   <br />
   
-  <iframe ng-if="ctl.space.info.video_aziendale" width="100%" height="350px" src="{{ctl.space.info.video_aziendale | to_trusted_url}}" frameborder="0" allowfullscreen=""></iframe>
+  <a ng-if="ctl.space.info.video_aziendale" width="100%" height="350px" href="youtube://{{ctl.space.info.video_aziendale | to_trusted_url}}" frameborder="0" allowfullscreen="">Ciao</a>
 </div>
 </script>
 <script type="text/ng-template" id="partials/posts.html">
