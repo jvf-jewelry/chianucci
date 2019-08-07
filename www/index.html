@@ -11,7 +11,7 @@
     <meta name="format-detection" content="telephone=no" />
 
     <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="ZNLbDai5kZgi/sbfkHCuoHL0kSo21E9JZ1QT8PiD61nDpHrQrf0ibMFfDr2Djz54vh0otaeJSCIWPbcsYHpXow==" />
+<meta name="csrf-token" content="zoc9l/3c0g8RjNUXRDz3q3HiPfv31gFzfoiPzcxCNEUBFBbv/hEGdjMhAIlBo6OQcLcCjg+zWXSoPqdKqBeMXQ==" />
     
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script type="text/javascript" src="cordova.js"></script>
@@ -57,7 +57,7 @@
         Click here to retry
       </div>
     </div>
-    <div class="container" style="min-height: 100vh; padding-bottom: 55px;">
+    <div class="container" style="min-height: 100vh; padding-bottom: 80px;">
       <ng-view></ng-view>
 
 <script type="text/ng-template" id="partials/profile.html">
@@ -162,7 +162,7 @@
   <h1 class="h1_scheda">Video Aziendale</h1>
   <br />
   
-  <a ng-if="ctl.space.info.video_aziendale" width="100%" height="350px" href="youtube://{{ctl.space.info.video_aziendale | to_trusted_url}}" frameborder="0" allowfullscreen="">Ciao</a>
+  <iframe ng-if="ctl.space.info.video_aziendale" width="100%" height="350px" src="{{ctl.space.info.video_aziendale | to_trusted_url}}" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </script>
 <script type="text/ng-template" id="partials/posts.html">
