@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "956035368958",
+    "firebase_url": "https://jvf-chianucci.firebaseio.com",
+    "project_id": "jvf-chianucci",
+    "storage_bucket": "jvf-chianucci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956035368958:android:43b933103155a1c8",
+        "android_client_info": {
+          "package_name": "net.serendpt.chianucci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956035368958-d8ic5sd7u37rfri908jml9tvp201is4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaVv1F-1SF5DXS6_Ws83wfodTAbujzluc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956035368958-d8ic5sd7u37rfri908jml9tvp201is4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
